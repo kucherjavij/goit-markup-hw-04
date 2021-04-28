@@ -47,6 +47,7 @@ h5,
 h6,
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
@@ -91,7 +92,6 @@ p {
 }
 
 .head .link {
-  /* display: block; */
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -106,6 +106,10 @@ p {
   align-items: center;
   color: var(--titles-color);
   margin-right: auto;
+}
+
+.nav .link {
+  display: block;
 }
 
 .link:hover,
@@ -431,7 +435,7 @@ p {
 
 .join {
   margin-left: 30px;
-  padding-top: 12px;
+
   width: 270px;
 }
 
@@ -460,11 +464,10 @@ p {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   /* justify-content: flex-start; */
 }
 .footer-social-icons {
-  margin-top: 16px;
   display: inline-flex;
 }
 
